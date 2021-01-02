@@ -61,5 +61,3 @@ for l in lis:
   if re.match(subsecno,l):
     print('\n'+l+': '+dic[l][0])
     print_sec(dic[l][0])
-  else:
-    break
